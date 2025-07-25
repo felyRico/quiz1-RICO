@@ -53,9 +53,14 @@ export default function Home() {
             <Space direction="vertical" size="large" style={{ width: '100%', textAlign: 'right' }}>
               <Title level={1}>Welcome to Mambo</Title>
               <Paragraph>
-                Mambo is a simple Mambo Mambo the use of Mambo for Mambo, Mambo, and Omatsuri Mambo.
+                Mambo is a simple Mambo. Mambo the use of Mambo for Mambo, Mambo, and Omatsuri Mambo.
               </Paragraph>
-              <Button type="primary" size="large" icon={<ArrowRightOutlined />}>
+              <Button 
+                type="primary" 
+                size="large" 
+                icon={<ArrowRightOutlined />} 
+                style={{ background: '#c88785', borderColor: '#c88785' }}
+              >
                 Get Started
               </Button>
             </Space>
